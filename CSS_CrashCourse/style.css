@@ -1,0 +1,28 @@
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+    /* another way to set content color
+    color:rgb(55,55,55); */
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* 开发的时候需要选用web safe fonts,serif族字体是有边边角角的，sans serif族则像黑体一样均匀*/
+    font-size: 16px;
+    font-weight: normal;
+    /*same as above*/
+    font: normal,16px,Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    /* 能够使所有元素 */
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color:#fff;
+}
+/* id和class的区别：id用在唯一的元素上，class用在会复用的元素style上*/
