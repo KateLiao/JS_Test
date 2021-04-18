@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 500px;
+    width: 80%;
     /* 能够使所有元素 */
     margin: auto;
 }
