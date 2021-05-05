@@ -9,3 +9,7 @@
 
 #### 5. 2020.04.25
 ##### 学习DOM Crash Course，学会如何利用DOM对元素进行选择并修改、增加元素；
+#### 6. 2020.05.03
+##### 完成DOM Crash Course。并完成Course 4中的小demo；
+#### 7. 2020.05.05
+##### 学习Bootstrap_V3 Crash Course，建立V3的cheat sheet，后续需要补充学习V4-V5与V3的区别。
