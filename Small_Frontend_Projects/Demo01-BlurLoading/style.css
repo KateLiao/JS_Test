@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+    /* 通过display:flex 让容器元素变成flex容器，容器的子元素都将变为flex元素*/
+    display: flex;
+    /* pack items around center, ref:https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://www.zelda.com/breath-of-the-wild/assets/media/wallpapers/desktop-7.jpg') no-repeat center center/cover;
+    position: absolute;
+    /* z-index is for ensuring loading text will be on the top of the bg */
+    z-index: -1;
+    filter: blur(0px);
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
+
+.reload{
+    position:fixed;
+    top:10px;
+    left: 10px;
+}
